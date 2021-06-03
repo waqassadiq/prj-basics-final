@@ -8,7 +8,7 @@ import { ShoppingListComponent } from "src/app/shopping-list/shopping-list.compo
 const appRoutes: Routes = [
     { path: '', redirectTo: '/recipes', pathMatch: 'full' }, // without pathMatchFull, it won't be able to load the redirect page
     { path: 'recipes', component: RecipeListComponent },
-    { path: 'shopping-list', component: ShoppingListComponent },
+    { path: 'shopping-list', component: ShoppingListComponent }
 ];
 
 @NgModule({
